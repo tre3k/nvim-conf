@@ -56,6 +56,8 @@ Plug('preservim/nerdtree', { ['on'] = 'NERDTreeToggle' })
 Plug('tpope/vim-fireplace', { ['for'] = 'clojure' })
 
 Plug('majutsushi/tagbar')
+Plug('vim-airline/vim-airline')
+Plug('vim-airline/vim-airline-themes')
 
 -- Unmanaged plugin (manually installed and updated)
 --Plug('~/my-prototype-plugin')
