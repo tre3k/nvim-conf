@@ -58,6 +58,7 @@ Plug('tpope/vim-fireplace', { ['for'] = 'clojure' })
 Plug('majutsushi/tagbar')
 Plug('vim-airline/vim-airline')
 Plug('vim-airline/vim-airline-themes')
+Plug('rafi/awesome-vim-colorschemes')
 
 -- Unmanaged plugin (manually installed and updated)
 --Plug('~/my-prototype-plugin')
