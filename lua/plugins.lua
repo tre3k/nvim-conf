@@ -55,13 +55,13 @@ Plug('preservim/nerdtree', { ['on'] = 'NERDTreeToggle' })
 -- On-demand loading: loaded when a file with a specific file type is opened
 Plug('tpope/vim-fireplace', { ['for'] = 'clojure' })
 
+Plug('preservim/tagbar', { ['rtp'] = 'plugin' })
+
 -- Unmanaged plugin (manually installed and updated)
-Plug('~/my-prototype-plugin')
+--Plug('~/my-prototype-plugin')
 
 vim.call('plug#end')
 
 -- Color schemes should be loaded after plug#end().
 -- We prepend it with 'silent!' to ignore errors when it's not yet installed.
-vim.cmd('silent! colorscheme seoul256')
-
--- [ vim-pug END ]
+-- vim.cmd('silent! colorscheme seoul256')
