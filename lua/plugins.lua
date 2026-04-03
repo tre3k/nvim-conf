@@ -55,7 +55,7 @@ Plug('preservim/nerdtree', { ['on'] = 'NERDTreeToggle' })
 -- On-demand loading: loaded when a file with a specific file type is opened
 Plug('tpope/vim-fireplace', { ['for'] = 'clojure' })
 
-Plug('preservim/tagbar', { ['rtp'] = 'plugin' })
+Plug('majutsushi/tagbar')
 
 -- Unmanaged plugin (manually installed and updated)
 --Plug('~/my-prototype-plugin')
