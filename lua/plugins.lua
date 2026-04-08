@@ -59,6 +59,8 @@ Plug('majutsushi/tagbar')
 Plug('vim-airline/vim-airline')
 Plug('vim-airline/vim-airline-themes')
 Plug('rafi/awesome-vim-colorschemes')
+Plug('nvim-lua/plenary.nvim')
+Plug('nvim-telescope/telescope.nvim')
 
 -- Unmanaged plugin (manually installed and updated)
 --Plug('~/my-prototype-plugin')
